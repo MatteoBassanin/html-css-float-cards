@@ -27,29 +27,33 @@ main{
 }
 
 .container-contacts{
-    background-color: white;
+    
     width: calc(100% / 3) ;
     float: left;
     padding-right:20px ;
 }
 
 .contact{
-    
-    /* width: calc(100% / 3) ; */
     background-color: black;
-    border: 1px solid red;
-    
-
+    margin-bottom: 30px;
 }
+
+
 
 .contact-left img{
     height: 70px;
     float: left;
+    
 }
 
 .contact-right{
     color: white;
     font-size: 10px;
+    float: left;
+    margin: 10px;
+    text-align: left;
+    
+    
 }
 
 .clearfix::after{
@@ -58,3 +62,16 @@ main{
     clear: both;
 }
 
+span , a {
+    display: block;            
+}
+
+span.name{
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+
+.job{
+    padding: 5px 0;
+}
