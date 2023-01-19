@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-
 }
 
 h1{
     color: #E53170;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .container{
@@ -19,7 +17,7 @@ h1{
 }
 
 header p{
-    margin-top: 40px;
+    margin: 40px 20px 0 0;
     font-size: 12px;
 }
 
@@ -27,8 +25,7 @@ main{
     margin-top: 30px;
 }
 
-.container-contacts{
-    
+.container-contacts{   
     width: calc(100% / 3) ;
     float: left;
     padding-right:20px ;
@@ -39,12 +36,9 @@ main{
     margin-bottom: 30px;
 }
 
-
-
 .contact-left img{
     height: 70px;
-    float: left;
-    
+    float: left;   
 }
 
 .contact-right{
@@ -52,9 +46,7 @@ main{
     font-size: 10px;
     float: left;
     margin: 10px;
-    text-align: left;
-    
-    
+    text-align: left;       
 }
 
 .clearfix::after{
